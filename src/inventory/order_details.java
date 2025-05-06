@@ -131,7 +131,7 @@ public class order_details extends javax.swing.JFrame {
                 model.addRow(new Object[]{rs.getString("id"), rs.getString("name"), rs.getString("mobile_number")});
 
             }
-        } catch (Exception e) {
+        } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, e);
         }
     }//GEN-LAST:event_formComponentShown

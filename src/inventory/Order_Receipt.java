@@ -67,7 +67,7 @@ public class Order_Receipt extends javax.swing.JFrame {
 
             },
             new String [] {
-                "ID", "Quantity", "Unit Price", "Sub Total"
+                "ID", "Quantity", "Unit Price", "Sub Total", "Product Name"
             }
         ));
         receipttable.setSelectionBackground(new java.awt.Color(102, 0, 51));
@@ -133,7 +133,7 @@ public class Order_Receipt extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         setVisible(false);
-        new first_Page().setVisible(true);
+        new order_details().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
